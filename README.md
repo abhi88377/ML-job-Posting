@@ -1,18 +1,26 @@
+# US Machine Learning Jobs in the USA — Visualization
+This repository contains Python code that generates insightful visualizations from a dataset of 1,000 machine learning job postings in the USA. The analysis is conducted using Matplotlib and Seaborn, covering trends in job titles, seniority levels, and geographic distribution.
 
-# Machine Learning Jobs in the USA - Visualization
-This repository contains Python code to visualize key insights from a dataset of 1,000 machine learning jobs in the USA. The visualizations are created using Matplotlib and provide analysis of job titles, seniority levels, and geographic distribution.
+📊 Dataset Overview
+Filename: 1000_ml_jobs_us.csv
 
-Dataset
-The dataset (1000_ml_jobs_us.csv) contains the following columns:
+This dataset includes the following columns:
 
-job_posted_date: Date when job was posted
+| Column Name                | Description                                 |
+| -------------------------- | ------------------------------------------- |
+| `job_posted_date`          | Date when the job was posted                |
+| `company_address_locality` | City where the company is located           |
+| `company_address_region`   | State (region) where the company is located |
+| `company_name`             | Name of the company offering the job        |
+| `job_title`                | Title of the job role                       |
+| `seniority_level`          | Required experience/seniority level         |
 
-company_address_locality: City location
 
-company_address_region: State location
+📌 Visualizations Include:
+Top 10 most common job titles
 
-company_name: Company name
+Distribution of jobs by seniority level
 
-job_title: Job title
+Top 5 states (regions) with the most job postings
 
-seniority_level: Experience level required
+Leading companies offering machine learning roles
